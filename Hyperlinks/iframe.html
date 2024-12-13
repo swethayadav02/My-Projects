@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        iframe{
+            width:100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="../public/images/men.jpg" target="_blank">Men's Fashion</a>
+        </div>
+        <div>
+            <a href="javascript:window.open('../public/images/men.jpg','Men','width=300 height=400')">Men'scFashion</a>
+        </div>
+        <div>
+            <a target="main-frame"  href="../public/images/a1.jpg">Kid's Fashion</a>
+        </div>
+        <div>
+            <a href="https://www.amazon.in" target="_blank">amazon</a>
+        </div>
+        <div>
+            <a href="https://www.youtube.com/embed/@CodingwithDev" target="main-frame"></a></div>
+        <main>
+            <iframe name="main-frame"></iframe>
+        </main>
+
+    </nav>
+</body>
+</html>

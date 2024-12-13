@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset-legend</title>
+    <style>
+        dl{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        dt{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        dd{
+            background-color: lightgray;
+            color: black;
+            padding: 4px;
+            margin-bottom: 5px;
+        }
+        fieldset{
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 2px gray;
+            border-radius: 20px;
+            background-image: url(public/images/c1.jpg);
+            background-size: cover;
+            width:500px;
+        }
+        legend{
+            text-align: left;
+            font-weight: bold;
+            padding: 4px;
+            background-color: black;
+            color: white;
+            width: 150px;
+            box-shadow:5px 5px 5px gray;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <dl>
+            <dt>First Name</dt>
+            <dd>Swetha</dd>
+            <dt>Last Name</dt>
+            <dd>Kotha</dd>
+            <dt>Age</dt>
+            <dd>21</dd>
+        </dl>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <dl>
+            <dt>City</dt>
+            <dd>Bhongir</dd>
+            <dt>Stae</dt>
+            <dd>Telangana</dd>
+            <dt>Postal Code</dt>
+            <dd>508116</dd>
+        </dl>
+    </fieldset>
+</body>
+</html>
