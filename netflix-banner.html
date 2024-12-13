@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>NETFLIX</title>
+    <style>
+        body{
+            background-size: cover;
+        }
+        .shade{
+            background-color: rgba(0,0,0,0.6);
+            width: 105%;
+            height: 100vh;
+            margin-top: -10px;
+            margin-left: -10px;
+        }
+        header{
+            padding: 40px;
+            color: white;
+            font-family: arial;
+            display: flex;
+            justify-content: space-between;
+        }
+        .brand-title{
+            font-size: 30px;
+            color:red;
+            font-weight: bold;
+
+        }
+        .btn-signin{
+            background-color: red;
+            color: white;
+            padding:4px;
+            border-radius: 5px;
+
+        }
+        section{
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            height:400px;
+            text-align: center;
+            padding: 20px;
+            font-family: arial;
+
+        }
+        .title{
+            font-size: 54px;
+            font-weight: bold;
+        }
+        .sub-title{
+            font-size: 30px;
+            font-family: arial;
+        }
+        main{
+            margin-top: 40px;
+        }
+        .email{
+            background-color: white;
+            color: gray;
+            padding: 20px;
+            display: inline-block;
+            width: 300px;
+            text-align: left;
+            font-size: 20px;
+        }
+        .btn-start{
+            background-color: red;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body background="public/images/netflix-banner.jpg">
+    <div class="shade">
+    <header>
+        <div>
+            <span class="brand-title">NETFLIX</span>
+        </div>
+        <div>
+            <div>
+            <span class="bi bi-globe"></span>
+             <span>Language</span>
+             <span class="bi bi-chevron-bar-down"></span>
+             <span class="btn-signin">Signin</span>
+        </div>
+        </div>
+        </header>
+        <section>
+            <div>
+                <div class="title">The biggest indian hits. Ready to watch here from $149.</div>
+                <div class="sub-title">Join today. Cancel anytime</div>
+                <main> 
+                    <span class="email">Your Email</span>
+                    <span class="btn-start">Get started<span class="bi bi-chevron-bar-right"></span></span>
+                </main>
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
