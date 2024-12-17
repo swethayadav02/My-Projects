@@ -1,0 +1,9 @@
+*{
+    input+div{
+        display: none;
+    }
+    input:focus+div{
+        display: block;
+        color: goldenrod;
+    }
+}

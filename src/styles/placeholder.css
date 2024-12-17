@@ -1,0 +1,15 @@
+*{
+    input{
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        
+    }
+    input::placeholder{
+        color: green;
+    }
+    form{
+        display: flex;
+        align-items: center;
+    }
+}

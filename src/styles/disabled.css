@@ -1,0 +1,5 @@
+*{
+    textarea:disabled{
+        cursor: not-allowed;
+    }
+}

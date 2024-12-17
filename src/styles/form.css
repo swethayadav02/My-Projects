@@ -1,0 +1,15 @@
+*{
+   input:required+span{
+    display: inline;
+    color: red;
+   } 
+   input:optional+span{
+    display: none;
+   }
+   input:required{
+    border: 1px solid red;
+   }
+   input:optional{
+    border:1px solid black;
+   }
+}

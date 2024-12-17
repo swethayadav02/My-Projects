@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/src/styles/form-2.css">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <dl>
+            <dt>User Name</dt>
+            <dd><input type="text" required><span>*</span>
+            <div>Name Required</div>
+        </dd>
+        <dt>Password</dt>
+        <dd><input type="password" required><span>*</span>
+        <div>Password Required</div>
+        </dd>
+        <dt>Age</dt>
+        <dd><input type="number" required><span>*</span>
+        <div>Age Required</div></dd>
+        <dt>Mobile</dt>
+        <dd><input type="text" pattern="\+91\d{10}">
+        <div>Invalid Mobile: +91-10 digits </div></dd>
+        </dl>
+    </form>
+</body>
+</html>
