@@ -1,0 +1,14 @@
+*{
+    .container{
+        padding: 20px;
+        background-color: lightyellow;
+        border: 3px solid black;
+    }
+    dl{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+    dt{
+        font-weight: bold;
+    }
+}

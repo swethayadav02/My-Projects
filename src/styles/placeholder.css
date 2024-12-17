@@ -1,4 +1,7 @@
 *{
+    body{
+        height: 100vh;
+    }
     input{
         border-left: none;
         border-right: none;
