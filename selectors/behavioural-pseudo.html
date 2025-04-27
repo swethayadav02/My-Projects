@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol{
+            list-style: none;
+            display: flex;
+        }
+        li::after{
+            content: ">>";
+        }
+        li:last-child::after{
+            content: "";
+        }
+        li:last-child{
+            color: gray;
+        }
+        input::placeholder{
+            background-color: yellow;
+        }
+        p::selection{
+            background-color: yellow;
+        }
+        p::first-line{
+            color:blue;
+        }
+        p::first-letter{
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Home</li>
+        <li>Electronics</li>
+        <li>Mobiles</li>
+        <li>Realme</li>
+        <li>C55</li>
+    </ol>
+    <input type="text" placeholder="User Name">
+    <p>
+        Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.Welcome to Styles. CSS Selectors.
+    </p>
+</body>
+</html>

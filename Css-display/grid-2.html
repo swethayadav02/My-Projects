@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        header{
+            font-family: arial;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .brand-title{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        @media screen {
+            header{
+                display: flex;
+                justify-content: space-between;
+            }
+            nav span{
+                margin-right: 15px;
+            }
+            aside span{
+                margin-right: 15px;
+            }
+            .bi-justify{
+                display: none;
+            }
+        }
+        @media screen {
+            header{
+                display: flex;
+                justify-content: space-between;
+            }
+            nav,aside{
+                display: none;
+            }
+            .bi-justify{
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><span class="brand-title">Shopper.</span></div>
+        <nav>
+            <span>Home</span>
+            <span>Pages</span>
+            <span>Blog</span>
+            <span>Shop</span>
+            <span>Docs</span>
+        </nav>
+        <aside>
+            <span class="bi bi-search"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-cart3"></span>
+        </aside>
+        <span class="bi bi-justify"></span>
+       
+
+    </header>
+</body>
+</html>
